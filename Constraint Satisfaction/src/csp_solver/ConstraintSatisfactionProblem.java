@@ -19,7 +19,7 @@ public class ConstraintSatisfactionProblem {
     static final private boolean isLCV = false;
     static final private boolean isMRV = true;
     static final private boolean isFC = true;
-    // To use MAC3, you need to set isFC as false
+    // To use MAC3, you need to set isFC to false
     static final private boolean isMAC3 = false;
 
 
