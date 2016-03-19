@@ -7,6 +7,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Test: N-Queens Problem
+ * Provided by Dartmouth College CS76 Artificial Intelligence
+ */
 public class Queens {
     private ConstraintSatisfactionProblem solver = new ConstraintSatisfactionProblem();
     private int numberOfQueens;

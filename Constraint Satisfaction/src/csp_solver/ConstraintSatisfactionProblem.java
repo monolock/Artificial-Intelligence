@@ -7,6 +7,7 @@ import org.omg.PortableInterceptor.INACTIVE;
 
 /**
  * Simple CSP solver
+ * Created by gejing on 2/19/16.
  */
 public class ConstraintSatisfactionProblem {
     private int nodesExplored;
@@ -478,14 +479,5 @@ public class ConstraintSatisfactionProblem {
             }
         }
         return -1;
-    }
-
-    /**
-     * Backjumping
-     * Conflict-directed-backjumping
-     *
-     * @param partialSolution
-     */
-    private void jumpBack(Map<Integer, Integer> partialSolution) {
     }
 }

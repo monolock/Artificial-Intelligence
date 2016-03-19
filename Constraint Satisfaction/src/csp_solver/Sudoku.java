@@ -10,6 +10,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
+/**
+ * Test: Sudoku Problem
+ * Provided by Dartmouth College CS76 Artificial Intelligence
+ */
 public class Sudoku {
     private ConstraintSatisfactionProblem solver = new ConstraintSatisfactionProblem();
     private int boardSize;
